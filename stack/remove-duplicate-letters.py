@@ -1,6 +1,8 @@
 # 316. Remove Duplicate Letters
 # https://leetcode.com/problems/remove-duplicate-letters/
 
+from collections import defaultdict
+
 class Solution:
     def removeDuplicateLetters(self, s: str) -> str:
         remaining = defaultdict(int)
