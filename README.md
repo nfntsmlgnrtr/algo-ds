@@ -1,2 +1,37 @@
 # algo-ds
 Algorithms and data structures
+- Data structures
+  - Hash tables
+  - Binary trees, binary search trees
+  - Linked lists
+  - Stacks and queues
+  - Binary heaps
+  - Disjoint-set/union-find data structure
+  - Tries, suffix trees
+- Algorithm design techniques
+  - Divide and conquer
+  - Dynamic programming
+  - Greedy
+  - Backtracking - constraint propagation
+  - Local search
+- Binary search
+- Sorting algorithms
+  - Merge sort
+  - Heap sort
+  - Quick sort
+  - Insertion sort
+  - Selection sort
+  - Bubble sort
+  - Non-comparison sorts
+- Graph problems
+  - DFS, BFS
+  - Shortest paths: Dijkstra
+  - Minimum spanning tree algorithms: Prim, Kruskal
+  - Topological sort
+  - Network flow problems
+- Other topics
+  - Bit manipulation
+  - Regular expressions
+  - Intervals, range search
+  - Computational geometry
+  - Integer programming
