@@ -6,10 +6,13 @@
 # the array of prefix sums at the beginning rather than (re)computing
 # the sums in the calls themselves.
 
+from functools import lru_cache
+from itertools import accumulate
+
 class Solution:
     def splitArray(self, nums: List[int], m: int) -> int:
         n = len(nums)
-        prefix_sum = [0] + list(itertools.accumulate(nums))
+        prefix_sum = [0] + list(accumulate(nums))
         
         @lru_cache(None)
         def helper(i, mm):
